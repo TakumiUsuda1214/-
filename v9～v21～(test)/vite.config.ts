@@ -17,6 +17,9 @@ function figmaAssetResolver() {
 }
 
 export default defineConfig({
+  server: {
+    allowedHosts: ["5173-i5yw6l2phjsogmwuhtkn8-584c5441.sg1.manus.computer"],
+  },
   plugins: [
     figmaAssetResolver(),
     // The React and Tailwind plugins are both required for Make, even if
