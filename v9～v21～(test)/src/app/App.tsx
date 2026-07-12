@@ -5,6 +5,7 @@ import { TasksScreen } from "./components/screens/TasksScreen";
 import { AIScreen } from "./components/screens/AIScreen";
 import { LinksScreen } from "./components/screens/LinksScreen";
 import { MenuScreen } from "./components/screens/MenuScreen";
+import { AnalysisScreen } from "./components/screens/AnalysisScreen";
 import { LoginScreen } from "./components/screens/LoginScreen";
 import { Modals } from "./components/Modals";
 
@@ -18,6 +19,7 @@ function Shell() {
         {tab === "tasks" && <TasksScreen />}
         {tab === "ai" && <AIScreen />}
         {tab === "links" && <LinksScreen />}
+        {tab === "analysis" && <AnalysisScreen />}
         {tab === "menu" && <MenuScreen />}
       </div>
       <BottomNav />

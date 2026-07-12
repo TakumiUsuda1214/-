@@ -17,6 +17,7 @@ export const T: Dict = {
   navHome: { ja: "ホーム", en: "Home", vi: "Trang chủ", zh: "主页", es: "Inicio" },
   navTasks: { ja: "課題・予定", en: "Tasks", vi: "Bài tập", zh: "课业", es: "Tareas" },
   navAI: { ja: "AI相談", en: "AI Help", vi: "Hỏi AI", zh: "AI咨询", es: "IA" },
+  navAnalysis: { ja: "分析", en: "Analysis", vi: "Phân tích", zh: "分析", es: "Análisis" },
   navLinks: { ja: "リンク", en: "Links", vi: "Liên kết", zh: "链接", es: "Enlaces" },
   navMenu: { ja: "メニュー", en: "Menu", vi: "Menu", zh: "菜单", es: "Menú" },
   importantNotice: { ja: "重要なお知らせ", en: "Important Notices", vi: "Thông báo quan trọng", zh: "重要通知", es: "Avisos" },

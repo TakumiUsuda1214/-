@@ -2,7 +2,7 @@ import { createContext, useContext, useState, ReactNode } from "react";
 import { Lang } from "./i18n";
 import { NotificationItem, CANCELLATIONS, Cancellation, Assignment, ASSIGNMENTS } from "./data";
 
-export type Tab = "home" | "tasks" | "ai" | "links" | "menu";
+export type Tab = "home" | "tasks" | "ai" | "analysis" | "links" | "menu";
 
 export type CustomScheduleItem = {
   id: string;

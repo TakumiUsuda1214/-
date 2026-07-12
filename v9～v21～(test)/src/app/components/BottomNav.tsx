@@ -1,4 +1,4 @@
-import { Home, ListChecks, Sparkles, Link2, Menu } from "lucide-react";
+import { Home, ListChecks, Sparkles, BarChart3, Link2, Menu } from "lucide-react";
 import { useApp, Tab } from "../AppContext";
 import { t } from "../i18n";
 
@@ -6,6 +6,7 @@ const items: { id: Tab; icon: any; key: string }[] = [
   { id: "home", icon: Home, key: "navHome" },
   { id: "tasks", icon: ListChecks, key: "navTasks" },
   { id: "ai", icon: Sparkles, key: "navAI" },
+  { id: "analysis", icon: BarChart3, key: "navAnalysis" },
   { id: "links", icon: Link2, key: "navLinks" },
   { id: "menu", icon: Menu, key: "navMenu" },
 ];
@@ -14,7 +15,7 @@ export function BottomNav() {
   const { tab, setTab, lang } = useApp();
   return (
     <div className="absolute bottom-0 left-0 right-0 bg-white/95 backdrop-blur border-t border-slate-200 pb-[env(safe-area-inset-bottom)]">
-      <div className="grid grid-cols-5 px-2 pt-1.5 pb-2">
+      <div className="grid grid-cols-6 px-2 pt-1.5 pb-2">
         {items.map(({ id, icon: Icon, key }) => {
           const active = tab === id;
           return (
